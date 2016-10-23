@@ -49,5 +49,12 @@ div.container input:nth-of-type(1):checked ~ .placeholder:nth-of-type(1) .large,
 }
 
 .small{
-  width:150px;
+  width: 150px;
+}
+
+@media screen
+and (max-width: 414px) {
+  .small {
+    width: 50px;
+  }
 }
